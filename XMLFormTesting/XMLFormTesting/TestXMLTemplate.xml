@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='us-ascii'?> 
+<form>
+	<PersonalDetails type="section" name="Personal Details">
+		<Name type="value">
+			<value></value>
+		</Name>
+		<Birthday>
+			<value></value>
+		</Birthday>
+	</PersonalDetails>
+</form>

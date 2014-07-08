@@ -1,0 +1,6 @@
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\bin\Debug\XMLFormTesting.exe.config
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\bin\Debug\XMLFormTesting.exe
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\bin\Debug\XMLFormTesting.pdb
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\obj\Debug\XMLFormTesting.csprojResolveAssemblyReference.cache
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\obj\Debug\XMLFormTesting.exe
+C:\SAMProjects\Admin\AT\NET\CS\XMLFormTesting\XMLFormTesting\obj\Debug\XMLFormTesting.pdb

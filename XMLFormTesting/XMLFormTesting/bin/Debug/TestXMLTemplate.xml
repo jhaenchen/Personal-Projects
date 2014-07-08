@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<form name="TestForm">
+  <section name="Personal Details">
+    <field name="name">Jake</field>
+    <field name="Birthday">April 26</field>
+  </section>
+  <section name="Favorite colors">
+    <field name="First Fav">Red</field>
+    <field name="Second Fav">Orange</field>
+  </section>
+</form>
