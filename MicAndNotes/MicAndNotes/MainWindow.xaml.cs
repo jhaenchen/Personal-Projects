@@ -37,6 +37,7 @@ namespace MicAndNotes
             bw.WorkerReportsProgress = false;
             bw.DoWork +=
                 bw_DoWork;
+            recordingImage.Visibility = Visibility.Hidden;
         }
 
         [DllImport("winmm.dll", EntryPoint = "mciSendStringA", CharSet = CharSet.Ansi, SetLastError = true,
@@ -75,6 +76,7 @@ namespace MicAndNotes
             mciSendString("open new Type waveaudio Alias recsound", "", 0, 0);
             recordingTimer.Start();
             mciSendString("record recsound", "", 0, 0);
+            recordingImage.Visibility = Visibility.Visible;
         }
 
 
@@ -134,6 +136,7 @@ namespace MicAndNotes
 
         private void StopButton_Click(object sender, RoutedEventArgs e)
         {
+            recordingImage.Visibility = Visibility.Hidden;
             string savedFileName = Guid.NewGuid().ToString();
             savedRecordingAs = Environment.CurrentDirectory + savedFileName + ".wav";
             recordingTimer.Stop();

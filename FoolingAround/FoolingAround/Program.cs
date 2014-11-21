@@ -15,7 +15,10 @@ namespace FoolingAround
     {
         private static void Main(string[] args)
         {
-            while (true)
+            Game1 g = new Game1();
+         
+            g.Run();
+            while (false)
             {
                 
                 Console.WriteLine("Choose your option:\nFinbonacci\nTyping\nHangman");
